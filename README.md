@@ -11,8 +11,7 @@
          UML:
 
 
- [![](./modelado2.png](./modelado2.png)
-
+![Getting Started](./modelado2.png)
 
 </details>
 
