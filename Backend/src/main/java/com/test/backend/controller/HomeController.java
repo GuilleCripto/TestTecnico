@@ -23,7 +23,7 @@ import java.util.List;
  */
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/apiRest")
 @CrossOrigin("*")
 public class HomeController {
     

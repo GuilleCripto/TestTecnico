@@ -1,0 +1,49 @@
+<div>
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+   
+      <div class="form-group">
+        <label for="website">Seleccione Una Figura:</label>
+        <select [(ngModel)]="opcionSeleccionado"  class="form-control" (change)="capturar()">
+            <option *ngFor="let web of websiteList">{{web}}</option>
+        </select>
+        <div *ngIf="f.website.touched && f.website.invalid" class="alert alert-danger">
+           
+        </div>
+    </div>
+
+  
+
+      <div class="form-group">
+        <label for="base">Base</label>
+        <input
+          type="text"
+          class="form-control"
+          id="base"
+          required
+          [(ngModel)]="tutorial.base"
+          name="base"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="altura">Altura</label>
+        <input
+          type="text"
+          class="form-control"
+          id="altura"
+          required
+          [(ngModel)]="tutorial.altura"
+          name="altura"
+        />
+      </div>
+
+      <button (click)="saveTutorial()" class="btn btn-success">Submit</button>
+    </div>
+
+    <div *ngIf="submitted">
+      <h4>Tutorial was submitted successfully!</h4>
+      <button class="btn btn-success" (click)="newTutorial()">Add</button>
+    </div>
+  </div>
+</div>
