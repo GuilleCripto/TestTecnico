@@ -2,12 +2,23 @@
 <details>
 <summary>Introducción</summary>
 <br>
-Desarrollar una clase que permita la creación de objetos que representen figuras geométricas
+         Desarrollar una clase que permita la creación de objetos que representen figuras geométricas
 </details>
 
 <details>
 
-<summary>Instalacion Backend (Tomcat)</summary>
+<summary>Documentación</summary>
+         UML:
+
+
+ [![](./modelado2.png](./modelado2.png)
+
+
+</details>
+
+<details>
+
+<summary>Instalacion Backend</summary>
          Proyecto montado con Spring Boot y Java 8, con los siguientes frameworks / libraries / funcionalidades:
 
  - Spring Boot: versión 2. posibilidad de arrancar directamente con el plugin de maven o generar un war para despliegue en 
@@ -16,20 +27,33 @@ Desarrollar una clase que permita la creación de objetos que representen figura
  - Servicio completo RESTful con Spring 
 
  - Capa de base de datos con Spring DATA Postgres
+</details>
 
+<details>
 
-Requisitos:
+<summary>Instalacion Frontend </summary>
+         Proyecto montado en fronend
 
- - Maven (instalado y configurado)
+ - Node 
 
- - Postgres server (instalado y arrancado, en localhost y con el puerto por defecto)
+ - Angula
 
-Comandos
+ </details>
+
+<details>
+<summary>Instalación local</summary>
 
  - Arrancar directamente con el plugin de SpringBoot:
  
     ```
     mvn spring-boot:run
+    ```
+
+  - Arrancar Angula:
+ 
+    ```
+    npm install
+    npm start
     ```
 
 </details>
