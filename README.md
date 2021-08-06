@@ -33,20 +33,8 @@ Comandos
     ```
 
 </details>
-<details>
-<summary>Instalacion Movil</summary>
-# jgyanez - Android Architecture Sample
 
-<img align="right" src="https://github.com/GuilleCripto/DemoSpringKotlin/blob/main/movil1.png" width="200">
 
-</details>
-
-<details>
-   <summary>Imagenes de los Rest Api (Postman)
-   <img align="right" src="https://github.com/GuilleCripto/DemoSpringKotlin/blob/main/postman1.png" width="200">
-   
-   </summary>
-</details>
 
 
 
